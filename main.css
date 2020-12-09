@@ -1,0 +1,183 @@
+/*
+  Coding from Life – Sketch 1: fixed layout
+
+  For sketch 1 you'll be positioning elements relative to an element with a fixed
+  width and height. For this sketch you can position elements by using pixel values.
+*/
+
+body {
+  background-color: lightgrey;
+}
+
+.table{
+  z-index: -1;
+	position: absolute;
+	width: 1000px;
+	height: 300px;
+	bottom: 0px;
+	background-image: linear-gradient(to bottom right, #334d50, #cbcaa5);
+}
+.frame {
+  z-index: 1;
+  width: 1000px;
+  height: 600px;
+  background-color: white;
+  margin: 30px auto;
+  position: relative;
+}
+
+.candle-1 {
+    position: absolute;
+    bottom: 325px;
+    right: 704px;
+    width: 42px;
+    height: 120px;
+    background-color: #ebdcc9;
+    z-index: 3;
+}
+
+.candle-2{
+    position: absolute;
+    bottom: 290px;
+    right: 700px;
+    width: 50px;
+    height: 35px;
+    background-color: gold;
+     background-image: linear-gradient(to bottom right, #614385, gold);
+    z-index: 5;
+}
+.candle-3 {
+    position: absolute;
+    bottom: 64px;
+    right: 714px;
+    width: 20px;
+    height: 260px;
+     background-color: gold;
+     background-image: linear-gradient(to bottom right, #614385, gold);
+    z-index: 3;
+}
+.candle-4 {
+    position: absolute;
+    bottom: 30px;
+    right: 688px;
+    width: 72px;
+    height: 35px;
+    background-color: ivory;
+    background-image: linear-gradient(to bottom right, #614385, gold);
+    z-index: 3;
+    border-radius: 70px / 35px;
+}
+
+.candle-5 {
+    position: absolute;
+    bottom: 440px;
+    right: 720px;
+    width: 10px;
+    height: 25px;
+    background-image: linear-gradient(to right, red , yellow);
+    z-index: 6;
+}
+
+
+.pumpkin-2 {
+    position: absolute;
+    z-index: 4;
+    bottom: 294px;
+    left: 705px;
+    width: 40px;
+    height: 35px;
+    background-color: #fc4a1a;
+    border-radius: 100%;
+    transform: rotate(178deg);} 
+
+.pumpkin{
+  position: absolute;
+  left: 550px;
+  z-index: 2;
+  width: 350px;
+  height: 200px;
+  background-image: linear-gradient(to bottom right,  #614385, #f7b733);
+  bottom: 100px;
+  top: -10;
+  border-radius: 350px / 200px;}
+
+.pumpkin-1 {  
+  position: absolute;
+  left: 600px;
+  z-index: 3;
+  width: 250px;
+  height: 130px;
+  background-image: linear-gradient(to bottom right,  #614385, #f7b733);
+  bottom: 185px;
+  top: -8;
+  border-radius: 250px / 130px;}
+
+.pot {
+  position: absolute;
+  left: 40px;
+  z-index: 2;
+  width: 300px;
+  height: 250px;
+  background-image: linear-gradient(to bottom right,  #614385, #9a8478);
+  bottom: 100px;
+  top: -10;
+  border-radius: 300px / 200px;
+  transform: rotate(-17deg);
+}
+
+.pot-top {
+  position: absolute;
+    bottom: 290px;
+    left: 30px;
+    width: 275px;
+    height: 35px;
+background-image: linear-gradient(to bottom right,  #614385, #9a8478);
+    z-index: 2;
+     transform: rotate(-17deg);
+}
+
+.pot-handle {
+  position: absolute;
+    z-index: 4;
+    bottom: 330px;
+    left: 148px;
+    width: 40px;
+    height: 35px;
+    background-color: #614385;
+    border-radius: 70%;
+    transform: rotate(178deg);}
+
+  .vase {
+    position: absolute;
+    z-index: 3;
+    background-image: linear-gradient(to bottom right, #614385, white);
+    bottom: 150px;
+    left: 350px;
+    width: 160px;
+    height: 275px;
+    opacity: 60%;
+    border-radius: 40%
+  }
+
+  .flower {
+    position: absolute;
+    bottom: 150px;
+    left: 421px;
+    width: 14px;
+    height: 310px;
+     background-color: green;
+    z-index: 2;
+  }
+
+  .flower-top {
+    position: absolute;
+    bottom: 450px;
+    z-index: 6;
+    width: 0;
+    height: 0;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    border-top: 100px solid green;
+    left: 358px;
+    }
+/* Your CSS goes here */
